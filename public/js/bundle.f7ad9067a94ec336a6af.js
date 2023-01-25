@@ -1,0 +1,2 @@
+!function(){"use strict";var t={745:function(t,e,r){var n=r(533);e.s=n.createRoot,n.hydrateRoot},533:function(t){t.exports=ReactDOM}},e={};function r(n){var o=e[n];if(void 0!==o)return o.exports;var a=e[n]={exports:{}};return t[n](a,a.exports,r),a.exports}!function(){var t=r(745);function e(){return React.createElement("div",null,"Dat day")}var n=document.getElementById("root");(0,t.s)(n).render(React.createElement(e,null))}()}();
+//# sourceMappingURL=bundle.f7ad9067a94ec336a6af.js.map

@@ -1,7 +1,5 @@
-import { createTheme, ThemeProvider } from '@mui/material/styles'
-
-const theme = createTheme()
+import RootRoutes from '@Routes/RootRoutes'
 
 export default function App() {
-  return <div>Dat day</div>
+  return <RootRoutes />
 }
