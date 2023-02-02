@@ -25,13 +25,12 @@
       "@Assets/*": ["./src/Assets/*"],
       "@Components/*": ["./src/Components/*"],
       "@Config/*": ["./src/Config/*"],
-      "@Screens/*": ["./src/Screens/*"],
-      "@Types/*": ["../backend/src/Types/*"],
+      "@Screens/*": ["src/Pages/*"],
+      "@Types/*": ["./src/Types/*"],
       "@Contexts/*": ["./src/Contexts/*"],
       "@Routes/*": ["./src/Routes/*"],
       "@Constants/*": ["./src/Constatns/*"],
-      "@Hooks/*": ["./src/Hooks/*"],
-      "@Scss/*": ["./src/Scss/*"]
+      "@Hooks/*": ["./src/Hooks/*"]
     },
     "lib": [
       "es2015",
