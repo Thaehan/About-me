@@ -30,7 +30,8 @@
       "@Contexts/*": ["./src/Contexts/*"],
       "@Routes/*": ["./src/Routes/*"],
       "@Constants/*": ["./src/Constatns/*"],
-      "@Hooks/*": ["./src/Hooks/*"]
+      "@Hooks/*": ["./src/Hooks/*"],
+      "@Languages/*": ["./src/Languages/*"]
     },
     "lib": [
       "es2015",
@@ -50,6 +51,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "resolveJsonModule": true /* Allows importing modules with a ‘.json’ extension, which is a common practice in node projects. */
   }
 }

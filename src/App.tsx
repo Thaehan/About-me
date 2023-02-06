@@ -1,6 +1,8 @@
 import RootRoutes from '@Routes/RootRoutes'
 import '@Assets/Scss/global.scss'
 
-export default function App() {
+function App() {
   return <RootRoutes />
 }
+
+export default App
