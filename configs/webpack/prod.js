@@ -8,7 +8,7 @@ module.exports = merge(commonConfig, {
   mode: 'production',
   output: {
     filename: 'js/bundle.[contenthash].js',
-    path: resolve(__dirname, '../../build'),
+    path: resolve(__dirname, '../../public'),
     publicPath: '/',
   },
   devtool: 'source-map',
