@@ -1,7 +1,9 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom'
 
-import HomeScreen from 'src/Pages/HomeScreen'
-import HelpScreen from 'src/Pages/HelpScreen'
+import HomeScreen from '@Screens/Home'
+import HelpScreen from '@Screens/Help'
+import Footer from '@Components/Footer'
+import Header from '@Components/Header'
 
 function MainRoutes() {
   const allMainRoutes = useRoutes([
@@ -21,7 +23,9 @@ function MainRoutes() {
 export default function RootRoute() {
   return (
     <BrowserRouter>
+      <Header />
       <MainRoutes />
+      <Footer />
     </BrowserRouter>
   )
 }
